@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tortura personal</title>
+    <style>
+        body {
+            max-width: 1080px;
+            padding: 2rem 4rem;
+            border-right: 2px solid rgb(49, 49, 49);
+            border-left: 2px solid rgb(49, 49, 49);
+            margin: 0 auto;
+            background: radial-gradient(circle, rgb(224, 106, 217) 0%, rgb(252, 0, 134) 55%, rgb(160, 2, 245) 100%);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+            color: #feffef;
+        }
+
+        table,
+        th,
+        td {
+
+            border: 1px solid black;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Página web melicolors</h1>
+    <p>Puedes leer mis post en mi <a href="blog.html">Blog</a> </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>500</td>
+                <td>casa</td>
+                <td>rent</td>
+            </tr>
+            <tr>
+                <td>500</td>
+                <td>casa</td>
+                <td>rent</td>
+            </tr>
+            <tr>
+                <td>500</td>
+                <td>casa super grande mansion</td>
+                <td>rent</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>total:1500</td>
+            <td></td>
+        </tfoot>
+
+    </table>
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub elemento1</li>
+                <li style="list-style-type: lower-roman;">sub elemento2</li>
+                <li style="list-style-type: lower-roman;">sub elemento3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="Maria" type="text" id="nombre" name="nombre" placeholder="Nombre">
+        <!-- {
+            nombre: "esto es un texto"
+        } -->
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Apellido">
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"
+            placeholder="ingrese comentario">Este es un valor por defecto</textarea>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <h2>Mi segundo Heading</h2>
+    <h3>Mi tercer Heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Torturita</h6>
+    <p>La torturita se hace cada vez menor</p>
+    <p>esto es un salto de linea</p>
+    <hr>
+    <h2>Segundo contenido</h2>
+    <p>Texto del segundo contenido poniendolo <span style="color:blueviolet">mucho mas largo</span> para poder generar
+        ya no se que iba a
+        escribir,<br> esto
+        escribe eternamente pa un mismo lado</p>
+    <!-- esto eduardo dice que no se usa -->
+    <a target="_blank" href="https://www.google.com/">ir a google</a>
+    <br>
+    <img src="img/vaca.jpg" width="400">
+
+</body>
+
+</html>
